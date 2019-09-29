@@ -1,0 +1,103 @@
+.body{
+    background-color: rgb(1, 1, 48);
+}
+h2 {
+    font-family: 'Cutive', serif;
+    color: lightcoral;
+}
+h4 {
+    font-family: "rock Salt", cursive;
+    color: lightcoral;
+}
+p {
+    font-family: 'livvic', sans-serif;
+}
+.center{
+    font-family: "rock Salt", cursive;
+}
+.header{
+    display: flexbox;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(1, 1, 48);
+    max-height: 40vh;
+    color: lightcoral;
+}
+
+/*.darkContainer {
+    background-color: rgb(1, 1, 48);
+    color: whitesmoke;
+}
+
+.liteContainer {
+    background-color: whitesmoke;
+    color: rgb(1, 1, 48);
+}*/
+.center{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero{
+    padding: 50px;
+    display: grid;
+    background-color:rgb(1, 1, 48);
+
+}
+.heroText{
+    padding: 25px 75px 25px 75px;
+    color: whitesmoke;
+}
+.myPhoto{
+    padding: 0px 25px 50p 25px;
+}
+
+.miniContainer {
+    border: 1px solid lightcoral;
+    padding: 30px;
+   
+}
+.miniContainer p{
+    font-family:'Cutive', serif;
+}
+
+.affinity {
+    padding-top: 25px;
+    padding-bottom: 12px;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    background-color: rgb(1, 1, 48);
+    color: whitesmoke;
+
+    box-shadow: 0 4px 8px 0 rgba(240,128,128, 0.897);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(240,128,128, 0.897);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: lightcoral;
+  }
+  .footer {
+    margin: auto;
+  
+    background-color: rgb(1, 1, 48);
+  
+  }
